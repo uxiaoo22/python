@@ -1,0 +1,103 @@
+/* ----------------------------------------------
+   FONT: Nunito Light for clean, natural style
+---------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap');
+
+body, h1, h2, h3, h4, p, a, li, span {
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 300 !important;  /* Light weight */
+  color: #1b1b1b;
+}
+
+/* Slight natural background tint */
+body {
+  background-color: #f7faf7;
+}
+
+
+/* ----------------------------------------------
+   SIDEBAR — Natural Green Theme
+---------------------------------------------- */
+
+/* Sidebar background gradient */
+.sidebar {
+  background: linear-gradient(180deg, #e8f5e9 0%, #ffffff 100%);
+  border-right: 1px solid #c8dec9;
+  padding-top: 20px;
+}
+
+/* Sidebar title */
+.sidebar-title {
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;  /* little heavier for title */
+  color: #1b5e20 !important;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Sidebar navigation links */
+.sidebar .nav-item > a {
+  color: #2e7d32 !important;
+  font-weight: 400 !important;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 4px 8px;
+  display: block;
+}
+
+/* Hover effect */
+.sidebar .nav-item > a:hover {
+  background-color: #c8e6c9 !important;
+  color: #1b5e20 !important;
+}
+
+/* Active / selected sidebar item */
+.sidebar .nav-item.active > a {
+  background-color: #a5d6a7 !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+}
+
+/* Sidebar search bar */
+.sidebar .search {
+  background-color: #f1f8f2 !important;
+  border-radius: 6px;
+  padding: 6px;
+  margin: 8px;
+}
+
+
+/* ----------------------------------------------
+   LINKS
+---------------------------------------------- */
+
+a {
+  color: #1b5e20;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0d4115;
+}
+
+
+/* ----------------------------------------------
+   HEADINGS
+---------------------------------------------- */
+
+h1, h2, h3, h4 {
+  color: #1b5e20;
+  font-weight: 400 !important;  /* slightly heavier than body */
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+
+/* ----------------------------------------------
+   MAIN CONTENT SPACING
+---------------------------------------------- */
+
+main {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
